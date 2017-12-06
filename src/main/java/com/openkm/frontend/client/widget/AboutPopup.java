@@ -65,7 +65,7 @@ public class AboutPopup extends DialogBox implements ClickHandler {
 		vPanel = new VerticalPanel();
 		text = new HTML();
 		button = new Button(Main.i18n("button.close"), this);
-		logo = new Image("img/logo_openkm.gif");
+		logo = new Image("img/logo_login.gif");
 
 		vPanel.setWidth("300px");
 		vPanel.setHeight("195px");
