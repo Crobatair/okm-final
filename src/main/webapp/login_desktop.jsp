@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+96<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="com.openkm.core.Config" %>
 <%@ page import="com.openkm.dao.LanguageDAO" %>
 <%@ page import="com.openkm.dao.bean.Language" %>
@@ -9,8 +9,8 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">  
-  <meta name="author" content="OpenKM">
-  <meta content="OpenKM is an EDRMS EDRMS, Document Management System and Record Management, easily to manage digital content, simplify your workload and yield high efficiency." name="description">
+  <meta name="author" content="SGDE">
+  <meta content="SGDE is an EDRMS EDRMS, Document Management System and Record Management, easily to manage digital content, simplify your workload and yield high efficiency." name="description">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
   <link rel="Shortcut icon" href="<%=request.getContextPath() %>/logo/favicon" />
   <link rel="stylesheet" href="<%=request.getContextPath() %>/css/bootstrap/bootstrap.min.css?v=%{TIMESTAMP}%" type="text/css" />

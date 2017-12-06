@@ -12,15 +12,12 @@
   <link rel="stylesheet" href="<%=request.getContextPath() %>/css/bootstrap/bootstrap.min.css?v=%{TIMESTAMP}%" type="text/css" />
   <link rel="stylesheet" href="<%=request.getContextPath() %>/css/font-awesome/font-awesome.min.css?v=%{TIMESTAMP}%" type="text/css" />
   <link rel="stylesheet" href="<%=request.getContextPath() %>/css/login.css?v=%{TIMESTAMP}%" type="text/css" />  
-  <title>OpenKM Mobile</title>
+  <title>SGED Mobile</title>
 </head>
 <body>
 <div id="login-background"></div>
 <u:constantsMap className="com.openkm.core.Config" var="Config"/>
   <div id="login-container">
-    <div class="openkm-version" style="padding: 5px 20px; color: #404040; font-wight:bold; background:#fed400; width:200px; position:fixed; top:0px; left:0px; z-index:1;">
-      <strong>Community Version</strong>
-    </div>
             <div class="login-title">
                 <img id="login-image" class="img-responsive center-block" src="img/logo_login.gif">
             </div>            

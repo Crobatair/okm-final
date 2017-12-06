@@ -43,11 +43,11 @@ public class AboutPopup extends DialogBox implements ClickHandler {
 	private HTML htmlAppVersion;
 	private HTML htmlExtVersion;
 	private Button button;
-	private String msg = "<b>Be Open, my friend!</b><br>";
-	private String copy = "&nbsp;&copy 2006-2017 OpenKM <br><br>";
-	private String team = "<b>OpenKM Team</b><br><br>";
-	private String web = "<a href=\"http://www.openkm.com\" target=\"_blank\">http://www.openkm.com</a><br><br>";
-	private String appVersion = "Version 0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+	private String msg = "<b>:) Entrá es gratis :) !</b><br>";
+	private String copy = "&nbsp;&copy 2017 SDGE <br><br>";
+	private String team = "<b>SDGE Team</b><br><br>";
+	private String web = "<a href=\"https://github.com/Crobatair/okm-final\" target=\"_blank\">Repositorio en Github</a><br><br>";
+	private String appVersion = "Version 1.0";
 	private String extVersion = "With Default Extension&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
 	private Futurama futurama;
 
@@ -106,12 +106,12 @@ public class AboutPopup extends DialogBox implements ClickHandler {
 	}
 
 	public void setAppVersion(String appVersion) {
-		this.appVersion = "Version " + appVersion + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+		this.appVersion = "Version 1.0";
 		htmlAppVersion.setHTML(this.appVersion);
 	}
 
 	public void setExtVersion(String extVersion) {
-		this.extVersion = "With " + extVersion + " Extension&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+		this.extVersion = "With a Professinal Team :) ";
 		htmlExtVersion.setHTML(this.extVersion);
 	}
 
@@ -138,7 +138,7 @@ public class AboutPopup extends DialogBox implements ClickHandler {
 	public void show() {
 		setText(Main.i18n("about.label"));
 		text.setHTML(msg);
-		logo.setUrl("img/logo_openkm.gif");
+		logo.setUrl("img/logo_login.gif");
 		reset();
 		super.show();
 	}
