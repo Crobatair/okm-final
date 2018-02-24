@@ -106,12 +106,12 @@ public class AboutPopup extends DialogBox implements ClickHandler {
 	}
 
 	public void setAppVersion(String appVersion) {
-		this.appVersion = "Version 1.0";
+		this.appVersion = "<p align=center>Version 1.0</p>";
 		htmlAppVersion.setHTML(this.appVersion);
 	}
 
 	public void setExtVersion(String extVersion) {
-		this.extVersion = "With a Professinal Team :) ";
+		this.extVersion = "<p align=center>With a Professinal Team :) </p> ";
 		htmlExtVersion.setHTML(this.extVersion);
 	}
 
@@ -138,7 +138,6 @@ public class AboutPopup extends DialogBox implements ClickHandler {
 	public void show() {
 		setText(Main.i18n("about.label"));
 		text.setHTML(msg);
-		logo.setUrl("img/logo_login.gif");
 		reset();
 		super.show();
 	}

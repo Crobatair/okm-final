@@ -59,13 +59,13 @@ public class MainMenu extends Composite {
 	private static final int OUTPUT_CSV = 4;
 
 	// URI CONSTANTS
-	public static final String URI_HELP = "http://www.openkm.com";
-	public static final String URI_BUG_REPORT = "http://issues.openkm.com";
-	public static final String URI_SUPPORT_REQUEST = "http://www.openkm.com/Contact/";
-	public static final String URI_PUBLIC_FORUM = "http://forum.openkm.com";
-	public static final String URI_PROJECT_WEB = "http://www.openkm.com";
-	public static final String URI_DOCUMENTATION = "http://wiki.openkm.com";
-	public static final String URI_VERSION_CHANGES = "http://wiki.openkm.com/index.php/Changelog";
+	public static final String URI_HELP = "https://github.com/Crobatair/okm-final";
+	public static final String URI_BUG_REPORT = "https://github.com/Crobatair/okm-final/issues";
+	public static final String URI_SUPPORT_REQUEST = "https://github.com/Crobatair/okm-final/wiki";
+	public static final String URI_PUBLIC_FORUM = "https://github.com/Crobatair/okm-final/wiki";
+	public static final String URI_PROJECT_WEB = "https://github.com/Crobatair/okm-final/wiki";
+	public static final String URI_DOCUMENTATION = "https://github.com/Crobatair/okm-final/wiki";
+	public static final String URI_VERSION_CHANGES = "https://github.com/Crobatair/okm-final/wiki";
 
 	private ToolBarOption mainMenuOption;
 	public Bookmark bookmark;
@@ -499,7 +499,7 @@ public class MainMenu extends Composite {
 		projectWeb = new MenuItem(Util.menuHTML("img/icon/menu/home.gif",
 				Util.windowOpen(Main.i18n("general.menu.help.project.web"), URI_PROJECT_WEB)), true, nullExecute);
 		projectWeb.addStyleName("okm-MainMenuItem");
-		about = new MenuItem(Util.menuHTML("img/icon/menu/about.gif", Main.i18n("general.menu.help.about")), true, aboutOKM);
+		about = new MenuItem(Util.menuHTML("img/icon/menu/about.gif","About SGDE"), true, aboutOKM);
 		about.addStyleName("okm-MainMenuItem");
 
 		// Submenu report format
@@ -669,7 +669,7 @@ public class MainMenu extends Composite {
 				Util.windowOpen(Main.i18n("general.menu.help.version.changes"), URI_VERSION_CHANGES)));
 		projectWeb.setHTML(Util.menuHTML("img/icon/menu/home.gif",
 				Util.windowOpen(Main.i18n("general.menu.help.project.web"), URI_PROJECT_WEB)));
-		about.setHTML(Util.menuHTML("img/icon/menu/about.gif", Main.i18n("general.menu.help.about")));
+		about.setHTML(Util.menuHTML("img/icon/menu/about.gif", "About SGDE"));
 	}
 
 	/**
